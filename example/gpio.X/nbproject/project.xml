@@ -16,6 +16,7 @@
                 <sourceRootElem>.</sourceRootElem>
                 <sourceRootElem>../../../bsp-pic16f</sourceRootElem>
                 <sourceRootElem>../../../device-driver</sourceRootElem>
+                <sourceRootElem>../../bsp-pic16f</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

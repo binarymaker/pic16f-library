@@ -4,8 +4,8 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>../../../bsp-pic16f/gpio-cfg.h</itemPath>
-      <itemPath>../../../bsp-pic16f/gpio.h</itemPath>
+      <itemPath>../../bsp-pic16f/gpio-cfg.h</itemPath>
+      <itemPath>../../bsp-pic16f/gpio.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -14,7 +14,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>../../../bsp-pic16f/gpio.c</itemPath>
+      <itemPath>../../bsp-pic16f/gpio.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -27,6 +27,7 @@
     <Elem>.</Elem>
     <Elem>../../../bsp-pic16f</Elem>
     <Elem>../../../device-driver</Elem>
+    <Elem>../../bsp-pic16f</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -75,7 +76,7 @@
         <property key="default-char-type" value="true"/>
         <property key="define-macros" value=""/>
         <property key="disable-optimizations" value="true"/>
-        <property key="extra-include-directories" value="..\..\..\bsp-pic16f"/>
+        <property key="extra-include-directories" value="..\..\bsp-pic16f"/>
         <property key="favor-optimization-for" value="-speed,+space"/>
         <property key="garbage-collect-data" value="true"/>
         <property key="garbage-collect-functions" value="true"/>
